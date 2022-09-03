@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   background: rgb(138, 189, 231);
+}
+
+.container{
+    width:500px;
+    height:500px;
+    background: rgb(191, 135, 236);
+    border-radius: 3rem;
+}
+
+.heading{
+    text-align: center;
+    background-color: rgb(128, 93, 184);
+    border-radius: 1rem;
+    color:rgb(245, 245, 245)
+}
+
+#head2{
+    text-align: center;
+    color:rgb(131, 16, 238)
+}
+
+.components{
+    text-align:center;
+    margin:30%;
+}
+
+input[type="text"]{
+    width:90px;
+    height:90px;
+    font-weight: 600;
+    font-size: 50px;
+    background-color:plum;
+    color:rgb(128, 93, 184);
+    text-align: center;
+}
+
+#guess{
+    margin: 6px;
+    color:whitesmoke;
+    font-size:20px;
+    width:20vh;
+    background: none;
+    font-weight: 600;
+   cursor:pointer;
+    border-style:none;
+}
+ p{
+    color:rgb(131, 16, 238);
+    font-weight: 500
+ }
